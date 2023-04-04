@@ -1,0 +1,79 @@
+.start-container {
+    text-align: center;
+  }
+  
+  .start-content {
+    background-image: url(../../public/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  .start {
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 400px;
+    padding: 24px;
+  }
+  
+  .start-title {
+    color: #000;
+  }
+  
+  .question-container {
+    background-image: url(../../public/images/6.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .question-content {
+    box-shadow: 5px 8px 8px 5px #040c10;
+    width: 400px;
+    padding: 32px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .result-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+  }
+  
+  .index-container {
+    background-color: rgb(129, 164, 242);
+    border-radius: 10px;
+    width: 50px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .result-universities {
+    background-color: rgb(129, 164, 242);
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 15px 5px;
+    min-width: 50px;
+  }
+  
+  .result-faculty {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
