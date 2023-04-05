@@ -38,7 +38,14 @@
   
   .question-content {
     box-shadow: 5px 8px 8px 5px #040c10;
-    width: 400px;
+    width: 500px;
+    padding: 32px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .result-content {
+    box-shadow: 5px 8px 8px 5px #040c10;
     padding: 32px;
     border-radius: 10px;
     text-align: center;

@@ -10,7 +10,7 @@ export function Result() {
   const result = useResult(token);
   return (
     <div className="question-container">
-      <div className="question-content">
+      <div className="result-content">
         <div>
           <h2>Rezultat</h2>
           <div style={{ display: "flex", justifyContent: "center" }}>
